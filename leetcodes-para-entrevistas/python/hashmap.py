@@ -11,5 +11,5 @@ class Solution:
         return [hasher.get(i), idx]
       hasher[target-i] = idx
 
-soltuion = Solution()
-print(soltuion.twoSum([2,7,11,15, 8, 9], 17))
+solution = Solution()
+print(solution.twoSum([2,7,11,15, 8, 9], 17))
